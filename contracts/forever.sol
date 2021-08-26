@@ -1,4 +1,5 @@
-pragma solidity 0.4.24;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8;
 /**
  * @title Recorder — record a message into the blockchain
  * @author Life on Mars — https://lifeonmars.pt
@@ -13,7 +14,7 @@ contract Recorder{
      * to record into the blockchain
      * @param message  message to record
      */
-    function record(string message) public {
+    function record(string memory message) public {
       emit Record(msg.sender, message);
     }
   }
