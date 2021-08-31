@@ -3,12 +3,6 @@ Uses Vagrant to build an Ubuntu 18.04 development environment for playing with E
 
 Obviously, you'll need to have Vagrant installed and a hypervisor such as Virtualbox.
 
-Based on https://github.com/mmccaff/vagrant-ethereum-dev and the article
-https://hackernoon.com/full-stack-smart-contract-development-fccdfe5176ce
-
-
-The Vagrantfile is configured to map /home/vagrant/contracts in the guest vm to ../contracts on your host. If you want to play with Web3, the guest is running nginx as a web server on port 80 and maps /var/www/html to ../web on your host.
-
 Detailed documentation
 
 A collection of other eth dev links
