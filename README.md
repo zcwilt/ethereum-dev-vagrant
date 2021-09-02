@@ -3,7 +3,17 @@ Uses Vagrant to build an Ubuntu 18.04 development environment for playing with E
 
 Obviously, you'll need to have Vagrant installed and a hypervisor such as Virtualbox.
 
-Detailed documentation
+## Setting up Vagrant 
+
+git clone https://github.com/zcwilt/ethereum-dev-vagrant.git
+
+cd https://github.com/zcwilt/ethereum-dev-vagrant.git
+
+vagrant up 
+
+## running  the test contract 
+
+
 
 A collection of other eth dev links
 -----------------------------------

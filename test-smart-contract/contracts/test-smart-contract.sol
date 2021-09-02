@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8;
-contract SimpleStorage {
+contract TestSmartContract{
   uint myVariable;
 
   function set(uint x) public {
